@@ -1,0 +1,14 @@
+[package]
+name = "hello_rooch"
+version = "0.0.1"
+
+[dependencies]
+MoveStdlib = { local = "/Users/macmini/MyProject/rooch/rooch/frameworks/move-stdlib" }
+MoveosStdlib = { local = "/Users/macmini/MyProject/rooch/rooch/frameworks/moveos-stdlib" }
+RoochFramework = { local = "/Users/macmini/MyProject/rooch/rooch/frameworks/rooch-framework" }
+
+[addresses]
+hello_rooch = "0x1dba8c83f8be8df04f816c808dbaabc31b28a97773ea56dda05cc0a7cb0fc123"
+std = "0x1"
+moveos_std = "0x2"
+rooch_framework = "0x3"

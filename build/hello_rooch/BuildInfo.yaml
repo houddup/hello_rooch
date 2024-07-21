@@ -1,0 +1,26 @@
+---
+compiled_package_info:
+  package_name: hello_rooch
+  address_alias_instantiation:
+    hello_rooch: 1dba8c83f8be8df04f816c808dbaabc31b28a97773ea56dda05cc0a7cb0fc123
+    moveos_std: "0000000000000000000000000000000000000000000000000000000000000002"
+    rooch_framework: "0000000000000000000000000000000000000000000000000000000000000003"
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: AC9421D48918A437ABF353B52CE499A3E1FC44B9B4CE20BD2165CF666DB9F4B5
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    bytecode_version: ~
+dependencies:
+  - MoveStdlib
+  - MoveosStdlib
+  - RoochFramework
